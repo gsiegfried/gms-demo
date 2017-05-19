@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"cloud.google.com/go/trace"
-	"github.com/harlow/go-micro-services/data"
-	"github.com/harlow/go-micro-services/lib"
-	"github.com/harlow/go-micro-services/pb/profile"
+	"github.com/gsiegfried/gms-demo/data"
+	"github.com/gsiegfried/gms-demo/lib"
+	"github.com/gsiegfried/gms-demo/pb/profile"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

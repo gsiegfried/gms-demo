@@ -13,9 +13,9 @@ import (
 
 	"cloud.google.com/go/trace"
 	"github.com/hailocab/go-geoindex"
-	"github.com/harlow/go-micro-services/data"
-	"github.com/harlow/go-micro-services/lib"
-	"github.com/harlow/go-micro-services/pb/geo"
+	"github.com/gsiegfried/gms-demo/data"
+	"github.com/gsiegfried/gms-demo/lib"
+	"github.com/gsiegfried/gms-demo/pb/geo"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

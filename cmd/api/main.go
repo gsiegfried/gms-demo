@@ -8,9 +8,9 @@ import (
 	"sync"
 
 	"cloud.google.com/go/trace"
-	"github.com/harlow/go-micro-services/pb/geo"
-	"github.com/harlow/go-micro-services/pb/profile"
-	"github.com/harlow/go-micro-services/pb/rate"
+	"github.com/gsiegfried/gms-demo/pb/geo"
+	"github.com/gsiegfried/gms-demo/pb/profile"
+	"github.com/gsiegfried/gms-demo/pb/rate"
 )
 
 type response struct {
