@@ -12,17 +12,17 @@ import (
 	"time"
 
 	"cloud.google.com/go/trace"
-	"github.com/hailocab/go-geoindex"
 	"github.com/gsiegfried/gms-demo/data"
 	"github.com/gsiegfried/gms-demo/lib"
 	"github.com/gsiegfried/gms-demo/pb/geo"
+	"github.com/hailocab/go-geoindex"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )
 
 const (
 	maxSearchRadius  = 10
-	maxSearchResults = 5
+	maxSearchResults = 50
 )
 
 type point struct {

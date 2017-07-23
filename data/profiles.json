@@ -1,98 +1,514 @@
 [
-    {
-        "id": "1",
-        "name": "Clift Hotel",
-        "phoneNumber": "(415) 775-4700",
-        "description": "A 6-minute walk from Union Square and 4 minutes from a Muni Metro station, this luxury hotel designed by Philippe Starck features an artsy furniture collection in the lobby, including work by Salvador Dali.",
-        "address": {
-            "streetNumber": "495",
-            "streetName": "Geary St",
-            "city": "San Francisco",
-            "state": "CA",
-            "country": "United States",
-            "postalCode": "94102",
-            "lat": 37.7867,
-            "lon": -122.4112
-        }
-    },
-    {
-        "id": "2",
-        "name": "W San Francisco",
-        "phoneNumber": "(415) 777-5300",
-        "description": "Less than a block from the Yerba Buena Center for the Arts, this trendy hotel is a 12-minute walk from Union Square.",
-        "address": {
-            "streetNumber": "181",
-            "streetName": "3rd St",
-            "city": "San Francisco",
-            "state": "CA",
-            "country": "United States",
-            "postalCode": "94103",
-            "lat": 37.7854,
-            "lon": -122.4005
-        }
-    },
-    {
-        "id": "3",
-        "name": "Hotel Zetta",
-        "phoneNumber": "(415) 543-8555",
-        "description": "A 3-minute walk from the Powell Street cable-car turnaround and BART rail station, this hip hotel 9 minutes from Union Square combines high-tech lodging with artsy touches.",
-        "address": {
-            "streetNumber": "55",
-            "streetName": "5th St",
-            "city": "San Francisco",
-            "state": "CA",
-            "country": "United States",
-            "postalCode": "94103",
-            "lat": 37.7834,
-            "lon": -122.4071
-        }
-    },
-    {
-        "id": "4",
-        "name": "Hotel Vitale",
-        "phoneNumber": "(415) 278-3700",
-        "description": "This waterfront hotel with Bay Bridge views is 3 blocks from the Financial District and a 4-minute walk from the Ferry Building.",
-        "address": {
-            "streetNumber": "8",
-            "streetName": "Mission St",
-            "city": "San Francisco",
-            "state": "CA",
-            "country": "United States",
-            "postalCode": "94105",
-            "lat": 37.7936,
-            "lon": -122.3930
-        }
-    },
-    {
-        "id": "5",
-        "name": "Phoenix Hotel",
-        "phoneNumber": "(415) 776-1380",
-        "description": "Located in the Tenderloin neighborhood, a 10-minute walk from a BART rail station, this retro motor lodge has hosted many rock musicians and other celebrities since the 1950s. It’s a 4-minute walk from the historic Great American Music Hall nightclub.",
-        "address": {
-            "streetNumber": "601",
-            "streetName": "Eddy St",
-            "city": "San Francisco",
-            "state": "CA",
-            "country": "United States",
-            "postalCode": "94109",
-            "lat": 37.7831,
-            "lon": -122.4181
-        }
-    },
-    {
-        "id": "6",
-        "name": "St. Regis San Francisco",
-        "phoneNumber": "(415) 284-4000",
-        "description": "St. Regis Museum Tower is a 42-story, 484 ft skyscraper in the South of Market district of San Francisco, California, adjacent to Yerba Buena Gardens, Moscone Center, PacBell Building and the San Francisco Museum of Modern Art.",
-        "address": {
-            "streetNumber": "125",
-            "streetName": "3rd St",
-            "city": "San Francisco",
-            "state": "CA",
-            "country": "United States",
-            "postalCode": "94109",
-            "lat": 37.7863,
-            "lon": -122.4015
-        }
-    }
+	{
+		"id": "1",
+		"name": "Clift Hotel",
+		"phoneNumber": "(415) 775-4700",
+		"description": "A 6-minute walk from Union Square and 4 minutes from a Muni Metro station, this luxury hotel designed by Philippe Starck features an artsy furniture collection in the lobby, including work by Salvador Dali.",
+		"address": {
+			"streetNumber": "495",
+			"streetName": "Geary St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94102",
+			"lat": 37.7867,
+			"lon": -122.4112
+		}
+	},
+	{
+		"id": "2",
+		"name": "W San Francisco",
+		"phoneNumber": "(415) 777-5300",
+		"description": "Less than a block from the Yerba Buena Center for the Arts, this trendy hotel is a 12-minute walk from Union Square.",
+		"address": {
+			"streetNumber": "181",
+			"streetName": "3rd St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94103",
+			"lat": 37.7854,
+			"lon": -122.4005
+		}
+	},
+	{
+		"id": "3",
+		"name": "Hotel Zetta",
+		"phoneNumber": "(415) 543-8555",
+		"description": "A 3-minute walk from the Powell Street cable-car turnaround and BART rail station, this hip hotel 9 minutes from Union Square combines high-tech lodging with artsy touches.",
+		"address": {
+			"streetNumber": "55",
+			"streetName": "5th St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94103",
+			"lat": 37.7834,
+			"lon": -122.4071
+		}
+	},
+	{
+		"id": "4",
+		"name": "Hotel Vitale",
+		"phoneNumber": "(415) 278-3700",
+		"description": "This waterfront hotel with Bay Bridge views is 3 blocks from the Financial District and a 4-minute walk from the Ferry Building.",
+		"address": {
+			"streetNumber": "8",
+			"streetName": "Mission St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94105",
+			"lat": 37.7936,
+			"lon": -122.3930
+		}
+	},
+	{
+		"id": "5",
+		"name": "Phoenix Hotel",
+		"phoneNumber": "(415) 776-1380",
+		"description": "Located in the Tenderloin neighborhood, a 10-minute walk from a BART rail station, this retro motor lodge has hosted many rock musicians and other celebrities since the 1950s. It’s a 4-minute walk from the historic Great American Music Hall nightclub.",
+		"address": {
+			"streetNumber": "601",
+			"streetName": "Eddy St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94109",
+			"lat": 37.7831,
+			"lon": -122.4181
+		}
+	},
+	{
+		"id": "6",
+		"name": "St. Regis San Francisco",
+		"phoneNumber": "(415) 284-4000",
+		"description": "St. Regis Museum Tower is a 42-story, 484 ft skyscraper in the South of Market district of San Francisco, California, adjacent to Yerba Buena Gardens, Moscone Center, PacBell Building and the San Francisco Museum of Modern Art.",
+		"address": {
+			"streetNumber": "125",
+			"streetName": "3rd St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94109",
+			"lat": 37.7863,
+			"lon": -122.4015
+		}
+	},
+	{
+		"id": "7",
+		"name": "The Mosser",
+		"phoneNumber": "(415) 986-4400",
+		"description": "Did you miss your calling as the songbird of your generation? Maybe you're confident that you've been blessed with the voice of an angel, but haven't made it past karaoke night or the shower. Fortunately, this Victorian property -- just minutes from Union Square -- offers more than just cozy rooms.",
+		"address": {
+			"streetNumber": "54",
+			"streetName": "4th St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94103",
+			"lat": 37.7851,
+			"lon": -122.4051
+		}
+	},
+	{
+		"id": "8",
+		"name": "Parc 55 San Francisco",
+		"phoneNumber": "(415) 392-8000",
+		"description": "It's hard to imagine that a hotel with over 1,000 rooms could feel like anything less than a jam-packed Tokyo subway car during rush hour. But one step inside the massive two-level lobby of the newly renovated Parc 55 Wyndham San Francisco in Union Square will make it clear that there's more than enough room to breathe...and then some.",
+		"address": {
+			"streetNumber": "55",
+			"streetName": "Cyril Magnin St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94102",
+			"lat": 37.7849,
+			"lon": -122.4087
+		}
+	},
+	{
+		"id": "9",
+		"name": "King George Hotel",
+		"phoneNumber": "(415) 781-5050",
+		"description": "Enter this boutique hotel located at the heart of Union Square, and you'll immediately understand its name; named after the British monarch King George V, guests are made to feel like royalty by accommodating staff, valet laundry services and 24-hour room service.",
+		"address": {
+			"streetNumber": "34",
+			"streetName": "Mason St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94102",
+			"lat": 37.7869,
+			"lon": -122.4097
+		}
+	},
+	{
+		"id": "10",
+		"name": "Club Quarters Hotel",
+		"phoneNumber": "(415) 392-7400",
+		"description": "A stay at Club Quarters Hotel in San Francisco places you in the heart of San Francisco, minutes from TransAmerica Pyramid and close to Pier 39. This 4-star hotel is close to Lombard Street and Alcatraz Island.",
+		"address": {
+			"streetNumber": "424",
+			"streetName": "Clay St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94111",
+			"lat": 37.7953,
+			"lon": -122.4007
+		}
+	},
+	{
+		"id": "11",
+		"name": "Grant Plaza Hotel",
+		"phoneNumber": "(415) 434-3883",
+		"description": "A stay at Grant Plaza Hotel places you in the heart of San Francisco, minutes from TransAmerica Pyramid and close to Lombard Street. This hotel is close to Pier 39 and University of San Francisco.",
+		"address": {
+			"streetNumber": "465",
+			"streetName": "Grant Ave",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94108",
+			"lat": 37.7913,
+			"lon": -122.4057
+		}
+	},
+	{
+		"id": "12",
+		"name": "Hilton San Francisco Union Square",
+		"phoneNumber": "(415) 771-1400",
+		"description": "This hotel is the mack daddy of San Francisco, enjoying its status as one of the largest -- if not the largest -- hotels in the city. From a 46-floor tower, you can only imagine the spectacular views of the bay.",
+		"address": {
+			"streetNumber": "333",
+			"streetName": "O'Farrell St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94102",
+			"lat": 37.7858,
+			"lon": -122.4108
+		}
+	},
+	{
+		"id": "13",
+		"name": "Warwick San Francisco",
+		"phoneNumber": "(415) 928-7900",
+		"description": "For classic hotel accommodations in an elegant, boutique-hotel setting, the Warwick San Francisco Hotel should be right up your alley. The property features less than 100 guest rooms and suites, adorned with Louis XVI furnishings and decor, intermingled with modern amenities like flatscreen TVs, wireless Internet access and more.",
+		"address": {
+			"streetNumber": "490",
+			"streetName": "Geary St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94102",
+			"lat": 37.7870,
+			"lon": -122.4113
+		}
+	},
+	{
+		"id": "14",
+		"name": "Hotel Zoe San Francisco",
+		"phoneNumber": "(415) 561-1100",
+		"description": "Interested in a hotel that's been voted by The Frommer's Guide as the best hotel at Fisherman's Wharf, eight years in a row? If so, the Best Western Tuscan Inn is right up your alley. Don't let the Best Western name deceive you: this Kimpton property offers all the perks that you'd expect: daily wine and beer socials, a very pet-friendly policy, and organic coffee or tea each morning.",
+		"address": {
+			"streetNumber": "425",
+			"streetName": "North Point St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94133",
+			"lat": 37.806363,
+			"lon": -122.414247
+		}
+	},
+	{
+		"id": "15",
+		"name": "Hotel Carlton",
+		"phoneNumber": "(415) 673-0242",
+		"description": "Don't be fooled by the 1927 architectural design of the Hotel Carlton: step inside, and you won't have any doubt that this property can meet your 21st century needs. This 161-room hotel combines a touch of international flare in the form of unique travel photos and one-of-a-kind cultural objects.",
+		"address": {
+			"streetNumber": "1075",
+			"streetName": "Sutter St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94109",
+			"lat": 37.7877,
+			"lon": -122.4180
+		}
+	},
+	{
+		"id": "16",
+		"name": "Hotel Whitcomb",
+		"phoneNumber": "(415) 626-8000",
+		"description": "For those who prefer the grandeur and timeless elegance of a classic hotel, the Hotel Whitcomb is a landmark San Francisco property that takes guests back to the turn-of-the-century, with its Austrian crystal chandeliers, grand lobby with marble pillars and Tiffany glass accents.",
+		"address": {
+			"streetNumber": "1231",
+			"streetName": "Market St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94103",
+			"lat": 37.7780,
+			"lon": -122.4150
+		}
+	},
+	{
+		"id": "17",
+		"name": "The Alise San Francisco",
+		"phoneNumber": "(415) 441-2700",
+		"description": "With a stay at Staypineapple at The Alise San Francisco, you'll be centrally located in San Francisco, convenient to Westfield San Francisco Centre and Lombard Street. This 4-star hotel is close to Pier 39 and University of San Francisco.",
+		"address": {
+			"streetNumber": "580",
+			"streetName": "Geary St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94102",
+			"lat": 37.7869,
+			"lon": -122.4130
+		}
+	},
+	{
+		"id": "18",
+		"name": "Villa Florence",
+		"phoneNumber": "(415) 397-7700",
+		"description": "Some say Florence was the birthplace of the Italian Renaissance. If you're interested in experiencing the history and culture of the 'Athens of the Middle Ages' -- without taking a transatlantic flight -- the Villa Florence is about as close as you'll get.",
+		"address": {
+			"streetNumber": "225",
+			"streetName": "Powell St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94102",
+			"lat": 37.7866,
+			"lon": -122.4083
+		}
+	},
+	{
+		"id": "19",
+		"name": "The Cartwright Hotel - Union Square",
+		"phoneNumber": "(415) 421-2865",
+		"description": "Nestled in the one of quieter areas of Union Square, you'll enjoy a classy experience and inviting decor at the Larkspur Hotel Union Square. The lobby, for example, feels more like a living room than a lobby, with draped curtains and comfortable sitting areas near a warm fireplace.",
+		"address": {
+			"streetNumber": "524",
+			"streetName": "Sutter St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94102",
+			"lat": 37.7894,
+			"lon": -122.4092
+		}
+	},
+	{
+		"id": "20",
+		"name": "Hotel Majestic",
+		"phoneNumber": "(415) 441-1100",
+		"description": "With a stay at Hotel Majestic in San Francisco (Civic Center), you'll be convenient to Civic Center Plaza and Moscone Convention Center. This hotel is within the vicinity of Golden Gate Bridge.",
+		"address": {
+			"streetNumber": "1500",
+			"streetName": "Sutter St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94109",
+			"lat": 37.787243,
+			"lon": -122.425506
+		}
+	},
+	{
+		"id": "21",
+		"name": "Kimpton Sir Francis Drake Hotel",
+		"phoneNumber": "(415) 392-7755",
+		"description": "Approach 'The Drake' from Powell Street in Union Square and you'll immediately spot the famous Beefeater doormen in bright red uniforms. Legend has it that one doorman, Tom Sweeney, is the most photographed person in San Francisco. ",
+		"address": {
+			"streetNumber": "450",
+			"streetName": "Powell St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94102",
+			"lat": 37.788982,
+			"lon": -122.408392
+		}
+	},
+	{
+		"id": "22",
+		"name": "Hotel Kabuki",
+		"phoneNumber": "(415) 922-3200",
+		"description": "Embracing its Japantown surroundings, the Hotel Kabuki is the perfect choice if you're looking for Zen tranquility during your San Francisco getaway. Its traditional decor, such as in-room shoji screens and a Japanese garden with bonsai trees and koi fish, help to create an environment that's meant to help each guest achieve maximum serenity.",
+		"address": {
+			"streetNumber": "1625",
+			"streetName": "Post St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94115",
+			"lat": 37.785547,
+			"lon": -122.428476
+		}
+	},
+	{
+		"id": "23",
+		"name": "Mystic Hotel",
+		"phoneNumber": "(415) 400-0500",
+		"description": "With a stay at Mystic Hotel by Charlie Palmer, you'll be centrally located in San Francisco, convenient to Grace Cathedral and Lombard Street. This boutique hotel is close to Pier 39 and University of San Francisco.",
+		"address": {
+			"streetNumber": "417",
+			"streetName": "Stockton St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94108",
+			"lat": 37.789831,
+			"lon": -122.407314
+		}
+	},
+	{
+		"id": "24",
+		"name": "Union Square Plaza Hotel",
+		"phoneNumber": "(415) 776-7585",
+		"description": "A stay at Union Square Plaza Hotel places you in the heart of San Francisco, minutes from Westfield San Francisco Centre and close to Lombard Street. This hotel is close to Pier 39 and University of San Francisco.",
+		"address": {
+			"streetNumber": "432",
+			"streetName": "Geary St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94102",
+			"lat": 37.787299,
+			"lon": -122.410379
+		}
+	},
+	{
+		"id": "25",
+		"name": "Adante Hotel",
+		"phoneNumber": "(415) 673-9221",
+		"description": "With a stay at Adante Hotel, a C-Two Hotel, you'll be centrally located in San Francisco, convenient to Grace Cathedral and Lombard Street. This hotel is close to Pier 39 and University of San Francisco.",
+		"address": {
+			"streetNumber": "610",
+			"streetName": "Geary St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94102",
+			"lat": 37.786871,
+			"lon": -122.413671
+		}
+	},
+	{
+		"id": "26",
+		"name": "Kimpton Buchanan Hotel",
+		"phoneNumber": "(415) 921-4000",
+		"description": "With a stay at Kimpton Buchanan Hotel in San Francisco (Civic Center), you'll be convenient to Alamo Square and University of San Francisco. This hotel is close to Lombard Street and Palace of Fine Arts.",
+		"address": {
+			"streetNumber": "1800",
+			"streetName": "Sutter St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94115",
+			"lat": 37.786742,
+			"lon": -122.430251
+		}
+	},
+	{
+		"id": "27",
+		"name": "Hotel Triton",
+		"phoneNumber": "(415) 394-0500",
+		"description": "From the gold couches in the lobby, to the funky designs and bold colors livening up the rooms, it's no surprise that Hotel Triton was designed by a group of San Francisco artists. The eco-friendly rooms have themes like 'Trust for Public Land' and 'Happy Planet,' while the 'Zen Dens' offer comforting touches aimed at the solo traveler.",
+		"address": {
+			"streetNumber": "342",
+			"streetName": "Grant Ave",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94108",
+			"lat": 37.790309,
+			"lon": -122.405400
+		}
+	},
+	{
+		"id": "28",
+		"name": "Grant Hotel",
+		"phoneNumber": "(415) 421-7540",
+		"description": "A stay at Grant Hotel places you in the heart of San Francisco, minutes from Grace Cathedral and close to Lombard Street. This hotel is close to Pier 39 and University of San Francisco.",
+		"address": {
+			"streetNumber": "753",
+			"streetName": "Bush St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94108",
+			"lat": 37.789773,
+			"lon": -122.409599
+		}
+	},
+	{
+		"id": "29",
+		"name": "Rodeway Inn Civic Center",
+		"phoneNumber": "(415) 474-4374",
+		"description": "With a stay at Rodeway Inn Civic Center in San Francisco (Civic Center), you'll be minutes from San Francisco City Hall and close to Lombard Street. This hotel is close to University of San Francisco and Pier 39.",
+		"address": {
+			"streetNumber": "860",
+			"streetName": "Eddy St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94109",
+			"lat": 37.782874,
+			"lon": -122.421939
+		}
+	},
+	{
+		"id": "30",
+		"name": "Hotel Bijou",
+		"phoneNumber": "(415) 771-1200",
+		"description": "You'll be centrally located in San Francisco with a stay at Hotel Bijou, steps from Westfield San Francisco Centre and close to Lombard Street. This hotel is close to Pier 39 and University of San Francisco.",
+		"address": {
+			"streetNumber": "111",
+			"streetName": "Mason St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94102",
+			"lat": 37.784465,
+			"lon": -122.409615
+		}
+	},
+	{
+		"id": "31",
+		"name": "Embassy Hotel",
+		"phoneNumber": "(415) 673-1404",
+		"description": "Embassy Hotel is in the heart of San Francisco, walking distance from Asian Art Museum of San Francisco and San Francisco City Hall. This hotel is close to Lombard Street and University of San Francisco.",
+		"address": {
+			"streetNumber": "610",
+			"streetName": "Polk St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94102",
+			"lat": 37.782330,
+			"lon": -122.418869
+		}
+	},
+	{
+		"id": "32",
+		"name": "Galleria Park Hotel",
+		"phoneNumber": "(415) 781-3060",
+		"description": "Located just a block off Market Street near Union Square, the Galleria Park Hotel is a great choice for travelers searching for an affordable boutique hotel experience in the heart of San Francisco. The hotel originally opened in 1911 as the Hotel Sutter, and after a recent ownership change and massive renovation, it offers contemporary accommodations with touches that reflect its nearly century-long history.",
+		"address": {
+			"streetNumber": "191",
+			"streetName": "Sutter St",
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "United States",
+			"postalCode": "94104",
+			"lat": 37.789695,
+			"lon": -122.403446
+		}
+	}
 ]
