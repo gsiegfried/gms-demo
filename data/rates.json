@@ -2,8 +2,8 @@
     {
         "hotelId": "1",
         "code": "RACK",
-        "inDate": "2015-04-09",
-        "outDate": "2015-04-10",
+        "inDate": "2017-08-09",
+        "outDate": "2017-08-31",
         "roomType": {
           "bookableRate": 109.00,
           "code": "KNG",

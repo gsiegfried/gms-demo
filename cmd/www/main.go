@@ -78,7 +78,7 @@ const htmlBodyA = `
           infowindow.open(map);
         });
 
-        map.data.loadGeoJson('/api?inDate=2015-04-09&outDate=2015-04-10');
+        map.data.loadGeoJson('/api?inDate=2017-08-09&outDate=2017-08-31');
       }
     </script>
 `
