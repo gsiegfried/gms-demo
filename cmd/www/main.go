@@ -2,17 +2,44 @@ package main
 
 import (
 	"io"
+	"os"
+	"fmt"
+	"net/url"
 	"net/http"
+	"net/http/httputil"
 )
 
 func main() {
+
+	remoteApi, err := url.Parse("http://api:8080")
+	if err != nil {
+		panic(err);
+	}
+	proxy := httputil.NewSingleHostReverseProxy(remoteApi)
+	gmk := os.Getenv("GMAPI")
+	
+	htmlTail := fmt.Sprintf(htmlBodyB, gmk)
+	htmlBody := fmt.Sprintf("%s%s", htmlBodyA, htmlTail)
+
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		io.WriteString(w, htmlBody)
 	})
+	http.HandleFunc("/api", handler(proxy))
+
 	http.ListenAndServe(":5000", nil)
 }
 
-const htmlBody = `
+func handler(p *httputil.ReverseProxy) func(http.ResponseWriter, *http.Request) {
+	return func(w http.ResponseWriter, r *http.Request) {
+
+		r.URL.Path = ""
+		w.Header().Set("X-Rudy", "Grs")
+		p.ServeHTTP(w, r)
+	}
+
+}
+
+const htmlBodyA = `
 <!DOCTYPE html>
 <html>
   <head>
@@ -51,10 +78,12 @@ const htmlBody = `
           infowindow.open(map);
         });
 
-        map.data.loadGeoJson('http://localhost:8080?inDate=2015-04-09&outDate=2015-04-10');
+        map.data.loadGeoJson('/api?inDate=2015-04-09&outDate=2015-04-10');
       }
     </script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&callback=initMap" async defer></script>
+`
+const htmlBodyB = `
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?callback=initMap&key=%s" async defer></script>
   </body>
 </html>
 `

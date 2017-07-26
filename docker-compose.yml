@@ -5,6 +5,8 @@ services:
     entrypoint: ./cmd/www/www
     ports:
       - "5000:5000"
+    links:
+      - api
     env_file:
       - .env
   api:
