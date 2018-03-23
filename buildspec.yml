@@ -5,6 +5,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Go code...
+      - echo adding another line
       - go build data/bindata.go
   post_build:
     commands:
